@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background: black;
+  color: #ccc;
+  font-family: "Futura", sans-serif;
+  font-size: 32px;
+}
+
+.slide {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+a {
+  color: orange;
+}
