@@ -19,3 +19,30 @@ body {
 a {
   color: orange;
 }
+
+p {
+  margin: 0;
+}
+
+p,
+ul,
+blockquote {
+  max-width: 50%;
+}
+
+ul,
+li {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0.5em 0;
+}
+
+blockquote:before {
+  position: absolute;
+  content: '"';
+  display: block;
+  transform: translate(-0.5em, 0);
+}
